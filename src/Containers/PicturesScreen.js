@@ -5,12 +5,6 @@ import { PictureList, PicturesForm } from './';
 import PicturesActions from '../Redux/PictureRedux';
 
 class PicturesScreen extends Component {
-  componentDidMount() {
-    const { getPictures } = this.props;
-
-    getPictures()
-  }
-
   render() {
     const { pictures } = this.props;
 
